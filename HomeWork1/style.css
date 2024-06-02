@@ -1,0 +1,29 @@
+body{ /*Селектор для тэга body*/
+    font-family: Arial, sans-serif ; /*стиль шрифта*/
+    font-size: 16px; /*размер шрифта*/
+    color: #333 ; /* цвет строки*/
+line-height: 1.5; /*межстрочный отступ*/
+}
+.title{
+    font-size: 40px;
+    color: #f03333;
+    line-height: 1.2;
+    text-transform: uppercase;/*преобразование
+    текста в верхний регистр*/
+
+}
+.subtitle{
+font-size: 30px; 
+color: #12ac11 ; 
+line-height: 1.2;  
+text-decoration: underline;
+/*подчёркивание с низу*/
+}
+.list{
+    font-size: 20px;
+    color: #444 ;
+    list-style-type: square;
+}
+li {
+    font-style: italic;
+}
